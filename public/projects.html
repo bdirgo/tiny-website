@@ -1,5 +1,35 @@
-<nav>
-    <a href="/">Home</a>
-    <a href="/blog">Blog</a>
-    <a href="/projects">Projects</a>
-</nav>
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./projects.html">Projects</a>
+        <button id="dark-button" onclick="toggleDarkMode()">&nbsp;</button>
+    </nav>
+
+    <h1>Projects</h1>
+
+
+
+</body>
+<script>
+    let body = document.getElementsByTagName("body")[0]
+    let darkButton = document.getElementById("dark-button");
+    darkButton.innerHTML = "&#x1F318";
+    let darkMode = false;
+    toggleDarkMode = () => {
+        if (!darkMode) {
+            darkMode = true
+            body.classList.add("dark")
+            darkButton.innerHTML = "&#x2600️&#xFE0F";
+        } else {
+            darkMode = false
+            body.classList.remove("dark")
+            darkButton.innerHTML = "&#x1F318";
+        }
+    }
+</script>
+</html>
