@@ -7,7 +7,8 @@
         <a href="./index.html">Home</a>
         <a href="./blog.html">Blog</a>
         <a href="./projects.html">Projects</a>
-        <button id="dark-button" onclick="toggleDarkMode()">&nbsp;</button>
+        <a href="./cool-links.html">Cool &#x1F60E Websites</a>
+        <button id="dark-button">&nbsp;</button>
     </nav>
 
     <h1>BDirgo's website</h1>
@@ -16,21 +17,19 @@
 
     <p></p>
 </body>
-<script>
-    let body = document.getElementsByTagName("body")[0]
-    let darkButton = document.getElementById("dark-button");
-    darkButton.innerHTML = "&#x1F318";
-    let darkMode = false;
-    toggleDarkMode = () => {
-        if (!darkMode) {
-            darkMode = true
-            body.classList.add("dark")
-            darkButton.innerHTML = "&#x2600️&#xFE0F";
-        } else {
-            darkMode = false
-            body.classList.remove("dark")
-            darkButton.innerHTML = "&#x1F318";
-        }
-    }
-</script>
+<footer>
+    Follow me here: 
+    <div>
+        <a>Twitter</a>
+        <a>LinkedIn</a>
+        <a>RSS</a>
+        <a>email</a>
+    </div>
+    <form>
+        <label>Email:</label>
+        <input />
+        <button>Subscribe</button>
+    </form>
+</footer>
+<script type="module" src="./js/darkMode.js"></script>
 </html>
