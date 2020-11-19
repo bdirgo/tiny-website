@@ -13,22 +13,19 @@
     <h1>Blog</h1>
 
 
-</body>
-<script>
-    let body = document.getElementsByTagName("body")[0]
-    let darkButton = document.getElementById("dark-button");
-    darkButton.innerHTML = "&#x1F318";
-    let darkMode = false;
-    toggleDarkMode = () => {
-        if (!darkMode) {
-            darkMode = true
-            body.classList.add("dark")
-            darkButton.innerHTML = "&#x2600️&#xFE0F";
-        } else {
-            darkMode = false
-            body.classList.remove("dark")
-            darkButton.innerHTML = "&#x1F318";
-        }
-    }
-</script>
-</html>
+    <footer>
+        Follow me here: 
+        <div>
+            <a>Twitter</a>
+            <a>LinkedIn</a>
+            <a>RSS</a>
+            <a>email</a>
+        </div>
+        <form>
+            <label>Email:</label>
+            <input />
+            <button>Subscribe</button>
+        </form>
+    </footer>
+    <script type="module" src="./js/darkMode.js"></script>
+    </html>
