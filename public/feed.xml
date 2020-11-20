@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>BDirgo</title>
+  <link>https://bendirgo.web.app</link>
+  <description>Personal webzone of Benjamin Dirgo.</description>
+  <language>en-us</language>
+  <item>
+    <title>&#x1F60E; Cool Websites - 11/19/2020</title>
+    <link>https://bendirgo.web.app/blog/cool-websites.html</link>
+    <description>A collection of websites I can't bring myself to close the tabs.</description>
+  </item>
+</channel>
+
+</rss>
