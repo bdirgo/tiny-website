@@ -32,14 +32,14 @@ body{
 	position: absolute;
 }
 
+.flex-group {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .dark{
 	color:white;
 	background-color: black;
-}
-
-.image-container {
-	height: 300px;
-	overflow: hidden;
 }
 
 img, video{
