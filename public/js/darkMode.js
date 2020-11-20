@@ -7,6 +7,5 @@ darkButton.addEventListener("click", () => toggleDarkMode(body, darkButton), fal
 darkButton.innerHTML = Moon;
 if(!window.localStorage.getItem(darkModeID)) {
     populateStorage(darkModeID, light);
-} else {
-    setStyles(body, darkButton)
 }
+setStyles(body, darkButton)
